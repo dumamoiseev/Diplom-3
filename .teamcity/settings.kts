@@ -65,7 +65,7 @@ project {
             displayName = "dumamoiseev/dumamoiseev-QA-java-diplom-2"
             repositoryURL = "https://github.com/dumamoiseev/dumamoiseev-QA-java-diplom-2"
             authType = storedToken {
-                tokenId = "tc_token_id:CID_cfb716bdbb3552ebc3709d27e2c5e5a2:-1:b95474f0-7959-414f-96c0-2a343284d20e"
+                tokenId = "tc_token_id:CID_cfb716bdbb3552ebc3709d27e2c5e5a2:-1:57f9b796-3092-4571-b34f-cefaa4ed8a73"
             }
         }
     }
