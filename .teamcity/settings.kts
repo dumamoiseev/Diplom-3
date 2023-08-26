@@ -2,6 +2,7 @@ import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.buildFeatures.perfmon
 import jetbrains.buildServer.configs.kotlin.projectFeatures.githubAppConnection
 import jetbrains.buildServer.configs.kotlin.projectFeatures.githubConnection
+import jetbrains.buildServer.configs.kotlin.projectFeatures.githubIssues
 import jetbrains.buildServer.configs.kotlin.triggers.vcs
 
 /*
@@ -58,6 +59,14 @@ project {
             displayName = "GitHub.com"
             clientId = "dumamoiseev"
             clientSecret = "zxxf27496cb5088695d2a9b88d9377ef758"
+        }
+        githubIssues {
+            id = "PROJECT_EXT_48"
+            displayName = "dumamoiseev/dumamoiseev-QA-java-diplom-2"
+            repositoryURL = "https://github.com/dumamoiseev/dumamoiseev-QA-java-diplom-2"
+            authType = storedToken {
+                tokenId = "tc_token_id:CID_cfb716bdbb3552ebc3709d27e2c5e5a2:-1:b95474f0-7959-414f-96c0-2a343284d20e"
+            }
         }
     }
 }
